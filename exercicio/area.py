@@ -1,0 +1,15 @@
+A = input("Informe o primeiro valor: ")
+B = input("Informe o segundo valor: ")
+C = input("Informe o terceiro valor: ")
+
+TRI = (0.5 * float(A) * float(C))
+CIR = (3.14159 * float(C) * float(C))
+TRA = ((float(A) + float(B))/2 * float(C))
+QUA = (float(B) * float(B))
+RET = (float(A) * float(B))
+
+print(f"TRIANGULO = {TRI: .3f}")
+print(f"CIRCULO = {CIR: .3f}")
+print(f"TRAPEZIO = {TRA: .3f}")
+print(f"QUADRADO = {QUA: .3f}")
+print(f"RETANGULO = {RET: .3f}")
